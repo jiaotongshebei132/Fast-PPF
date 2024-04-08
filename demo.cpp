@@ -25,6 +25,7 @@ int main()
 		PCL_ERROR ("Couldn't read file\n");
 		return (-1);
     }
+	
 	descr->storeLatestCloud(cloud);
 
 	//We MUST process and visualize from different thread, or the program will crash
